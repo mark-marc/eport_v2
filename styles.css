@@ -680,3 +680,89 @@ footer {
     align-items: center;
     justify-content: center;
 }
+
+/*
+
+SHAPES
+
+shape on the first row
+height = 35vh
+
+shape second row, height = 70vh
+
+shape third row, height = 95 vh
+
+shape first column, width = 5vw
+
+second column = 50vw
+
+third = 80vw;
+
+
+*/
+
+
+
+.shape {
+    position: relative;
+    
+}
+
+
+
+.shape--0 {
+    top: 10vh;
+    left: 5vw;
+
+}
+
+.shape--1 {
+    top: 10vh;
+    left: 50vw;
+    
+}
+
+.shape--2 {
+    top: 10vh;
+    left: 80vw;
+    
+    
+}
+
+.shape--3 {
+    top: 50vh;
+    left: 5vw;
+    
+}
+
+.shape--4 {
+    top: 40vh;
+    left: 50vw;
+    
+}
+
+.shape--5 {
+    top: 50vh;
+    left: 80vw;
+    
+}
+
+.shape--6 {
+    top: 70vh;
+    left: 5vw;
+    
+}
+
+.shape--7 {
+    top: 80vh;
+    left: 50vw;
+    
+    
+}
+
+.shape--8 {
+    top: 70vh;
+    left: 70vw;
+    
+    
+}
