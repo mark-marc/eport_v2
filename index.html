@@ -8,6 +8,17 @@
     <link rel = "stylesheet" href="styles.css">
     <script src="https://kit.fontawesome.com/57e9c82959.js" crossorigin="anonymous"></script>
 
+    <script src="app.js"></script>
+
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("8Avufxh3TWCKqWNPK");
+   })();
+</script>
+
 </head>
 
 
@@ -139,7 +150,7 @@
                     I'm currently open to new opportunities
                 </h4>
 
-                <form id="contact__form" action="">
+                <form id="contact__form" onsubmit="contact(event)">
                     <div class="form__item">
                         <label class="form__item--label" for="name">
                         Name

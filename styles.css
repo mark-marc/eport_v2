@@ -417,16 +417,17 @@ MODAL
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: -1;
 
 }
 
 .modal__overlay--loading {
     background-color: #242424;
     font-size: 80px;
-    z-index: -1;
+    
 }
 
-.modal__overlay--sucess {
+.modal__overlay--success {
     background-color: #4bb543;
     font-size: 40px;
     font-weight: bold;
@@ -434,6 +435,10 @@ MODAL
     padding: 28px;
 }
 
+
+.modal__overlay--visible {
+    z-index: 1;
+}
 .fa-spinner {
     animation: spinner 750ms infinite linear;
 
