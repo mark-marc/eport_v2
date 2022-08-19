@@ -32,14 +32,14 @@
 
             <ul class ="nav__link--list">
                 <li class="nav__link">
-                    <a href ="" class="
+                    <a href ="#projects" class="
                     nav__link--anchor
                     link__hover-effect
                     link__hover-effect--black
                     ">About</a>
                 </li>
 
-                <li class="nav__link">
+                <li class="nav__link" onclick="toggleModal()">
                     <a href ="" class="
                     nav__link--anchor
                     link__hover-effect
@@ -99,10 +99,12 @@
 
             
         </header>
+        <a href="#">
 
         <button class="main__btn click" onclick="toggleModal()">
             <i class ="fas fa-envelope"></i>
         </button>
+        </a>
         <a href ="#projects" class="scroll">
             <div class="scroll__icon click"></div>
         </a>
@@ -353,6 +355,7 @@
             link__hover-effect--white
             ">
             Github
+            <!--targed github to new tab-->
         </a>
 
         <a href="#" class="
@@ -361,13 +364,14 @@
             link__hover-effect--white
             ">
             LinkedIn
+            <!--TArget linked in the new tab-->
         </a>
 
         <a href="#" class="
             footer__social--link
             link__hover-effect
             link__hover-effect--white
-            ">
+            " onclick="toggleModal()">
             Email
         </a>
 
@@ -378,6 +382,7 @@
             ">
             Resume
         </a>
+        <!-- ADD RESUME and target to new tab-->
         </div>
 
         <div class="footer__copyright">Copyright &copy; Marc Go 2022</div>
