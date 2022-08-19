@@ -2,6 +2,18 @@
 //service_ggeohad
 //8Avufxh3TWCKqWNPK
 
+let contrastToggle = false;
+
+function toggleContrast() {
+    contrastToggle = !contrastToggle;
+    if (contrastToggle) {
+    document.body.classList += " dark-theme";
+    }
+    else {
+        document.body.classList.remove("dark-theme");
+    }
+}
+
 function contact(){
     event.preventDefault();
     const loading = document.querySelector('.modal__overlay--loading');
